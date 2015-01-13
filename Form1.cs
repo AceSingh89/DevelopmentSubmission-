@@ -408,6 +408,8 @@ namespace Rock_Paper_Scissors
                 humanSpockHand = 0;
                 humanLizardHand = 0;
             }
+
+            games = 0;
         }
 
         private void rbtnSpockLizard_CheckedChanged(object sender, EventArgs e)
@@ -431,6 +433,8 @@ namespace Rock_Paper_Scissors
             humanScissorsHand = 0;
             humanSpockHand = 0;
             humanLizardHand = 0;
+
+            games = 0;
         }
 
         private void btnLizard_Click(object sender, EventArgs e)

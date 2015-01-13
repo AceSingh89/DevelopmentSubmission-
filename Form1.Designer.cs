@@ -69,7 +69,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(421, 305);
+            this.button1.Location = new System.Drawing.Point(343, 256);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 25);
             this.button1.TabIndex = 0;
@@ -79,7 +79,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(421, 336);
+            this.button2.Location = new System.Drawing.Point(343, 287);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(104, 25);
             this.button2.TabIndex = 1;
@@ -89,7 +89,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(421, 367);
+            this.button3.Location = new System.Drawing.Point(343, 318);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(104, 25);
             this.button3.TabIndex = 2;
@@ -100,7 +100,7 @@
             // computerScissors
             // 
             this.computerScissors.Image = ((System.Drawing.Image)(resources.GetObject("computerScissors.Image")));
-            this.computerScissors.Location = new System.Drawing.Point(397, 69);
+            this.computerScissors.Location = new System.Drawing.Point(282, 69);
             this.computerScissors.Name = "computerScissors";
             this.computerScissors.Size = new System.Drawing.Size(165, 147);
             this.computerScissors.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -120,32 +120,36 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(35, 346);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(34, 287);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 13);
+            this.label1.Size = new System.Drawing.Size(83, 24);
             this.label1.TabIndex = 6;
             this.label1.Text = "GAMES:";
             // 
             // lblGames
             // 
             this.lblGames.AutoSize = true;
-            this.lblGames.Location = new System.Drawing.Point(116, 346);
+            this.lblGames.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGames.Location = new System.Drawing.Point(123, 287);
             this.lblGames.Name = "lblGames";
-            this.lblGames.Size = new System.Drawing.Size(0, 13);
+            this.lblGames.Size = new System.Drawing.Size(0, 24);
             this.lblGames.TabIndex = 9;
             // 
             // lblOutput
             // 
             this.lblOutput.AutoSize = true;
-            this.lblOutput.Location = new System.Drawing.Point(35, 295);
+            this.lblOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutput.ForeColor = System.Drawing.Color.Red;
+            this.lblOutput.Location = new System.Drawing.Point(35, 256);
             this.lblOutput.Name = "lblOutput";
-            this.lblOutput.Size = new System.Drawing.Size(0, 13);
+            this.lblOutput.Size = new System.Drawing.Size(0, 25);
             this.lblOutput.TabIndex = 12;
             // 
             // computerRock
             // 
             this.computerRock.Image = ((System.Drawing.Image)(resources.GetObject("computerRock.Image")));
-            this.computerRock.Location = new System.Drawing.Point(397, 69);
+            this.computerRock.Location = new System.Drawing.Point(282, 69);
             this.computerRock.Name = "computerRock";
             this.computerRock.Size = new System.Drawing.Size(165, 147);
             this.computerRock.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -155,7 +159,7 @@
             // computerPaper
             // 
             this.computerPaper.Image = ((System.Drawing.Image)(resources.GetObject("computerPaper.Image")));
-            this.computerPaper.Location = new System.Drawing.Point(397, 69);
+            this.computerPaper.Location = new System.Drawing.Point(282, 69);
             this.computerPaper.Name = "computerPaper";
             this.computerPaper.Size = new System.Drawing.Size(165, 147);
             this.computerPaper.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -194,7 +198,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(394, 53);
+            this.label4.Location = new System.Drawing.Point(279, 53);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 13);
             this.label4.TabIndex = 19;
@@ -212,7 +216,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(394, 219);
+            this.label2.Location = new System.Drawing.Point(279, 219);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 13);
             this.label2.TabIndex = 22;
@@ -229,7 +233,7 @@
             // lblComputerHand
             // 
             this.lblComputerHand.AutoSize = true;
-            this.lblComputerHand.Location = new System.Drawing.Point(500, 219);
+            this.lblComputerHand.Location = new System.Drawing.Point(385, 219);
             this.lblComputerHand.Name = "lblComputerHand";
             this.lblComputerHand.Size = new System.Drawing.Size(0, 13);
             this.lblComputerHand.TabIndex = 24;
@@ -249,7 +253,7 @@
             // rbtnSpockLizard
             // 
             this.rbtnSpockLizard.AutoSize = true;
-            this.rbtnSpockLizard.Location = new System.Drawing.Point(386, 12);
+            this.rbtnSpockLizard.Location = new System.Drawing.Point(271, 12);
             this.rbtnSpockLizard.Name = "rbtnSpockLizard";
             this.rbtnSpockLizard.Size = new System.Drawing.Size(201, 17);
             this.rbtnSpockLizard.TabIndex = 26;
@@ -281,7 +285,7 @@
             // computerLizard
             // 
             this.computerLizard.Image = ((System.Drawing.Image)(resources.GetObject("computerLizard.Image")));
-            this.computerLizard.Location = new System.Drawing.Point(397, 69);
+            this.computerLizard.Location = new System.Drawing.Point(282, 69);
             this.computerLizard.Name = "computerLizard";
             this.computerLizard.Size = new System.Drawing.Size(165, 147);
             this.computerLizard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -291,7 +295,7 @@
             // computerSpock
             // 
             this.computerSpock.Image = ((System.Drawing.Image)(resources.GetObject("computerSpock.Image")));
-            this.computerSpock.Location = new System.Drawing.Point(397, 69);
+            this.computerSpock.Location = new System.Drawing.Point(282, 69);
             this.computerSpock.Name = "computerSpock";
             this.computerSpock.Size = new System.Drawing.Size(165, 147);
             this.computerSpock.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -300,7 +304,7 @@
             // 
             // btnLizard
             // 
-            this.btnLizard.Location = new System.Drawing.Point(421, 398);
+            this.btnLizard.Location = new System.Drawing.Point(343, 349);
             this.btnLizard.Name = "btnLizard";
             this.btnLizard.Size = new System.Drawing.Size(104, 25);
             this.btnLizard.TabIndex = 31;
@@ -310,7 +314,7 @@
             // 
             // btnSpock
             // 
-            this.btnSpock.Location = new System.Drawing.Point(421, 425);
+            this.btnSpock.Location = new System.Drawing.Point(343, 376);
             this.btnSpock.Name = "btnSpock";
             this.btnSpock.Size = new System.Drawing.Size(104, 25);
             this.btnSpock.TabIndex = 32;
@@ -322,7 +326,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(599, 462);
+            this.ClientSize = new System.Drawing.Size(471, 413);
             this.Controls.Add(this.btnSpock);
             this.Controls.Add(this.btnLizard);
             this.Controls.Add(this.computerSpock);
