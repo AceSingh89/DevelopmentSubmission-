@@ -69,7 +69,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(343, 256);
+            this.button1.Location = new System.Drawing.Point(184, 253);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 25);
             this.button1.TabIndex = 0;
@@ -79,7 +79,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(343, 287);
+            this.button2.Location = new System.Drawing.Point(184, 284);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(104, 25);
             this.button2.TabIndex = 1;
@@ -89,7 +89,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(343, 318);
+            this.button3.Location = new System.Drawing.Point(184, 315);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(104, 25);
             this.button3.TabIndex = 2;
@@ -121,7 +121,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(34, 287);
+            this.label1.Location = new System.Drawing.Point(343, 365);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 24);
             this.label1.TabIndex = 6;
@@ -131,7 +131,7 @@
             // 
             this.lblGames.AutoSize = true;
             this.lblGames.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGames.Location = new System.Drawing.Point(123, 287);
+            this.lblGames.Location = new System.Drawing.Point(432, 365);
             this.lblGames.Name = "lblGames";
             this.lblGames.Size = new System.Drawing.Size(0, 24);
             this.lblGames.TabIndex = 9;
@@ -141,7 +141,7 @@
             this.lblOutput.AutoSize = true;
             this.lblOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOutput.ForeColor = System.Drawing.Color.Red;
-            this.lblOutput.Location = new System.Drawing.Point(35, 256);
+            this.lblOutput.Location = new System.Drawing.Point(33, 250);
             this.lblOutput.Name = "lblOutput";
             this.lblOutput.Size = new System.Drawing.Size(0, 25);
             this.lblOutput.TabIndex = 12;
@@ -304,7 +304,7 @@
             // 
             // btnLizard
             // 
-            this.btnLizard.Location = new System.Drawing.Point(343, 349);
+            this.btnLizard.Location = new System.Drawing.Point(184, 346);
             this.btnLizard.Name = "btnLizard";
             this.btnLizard.Size = new System.Drawing.Size(104, 25);
             this.btnLizard.TabIndex = 31;
@@ -314,7 +314,7 @@
             // 
             // btnSpock
             // 
-            this.btnSpock.Location = new System.Drawing.Point(343, 376);
+            this.btnSpock.Location = new System.Drawing.Point(184, 373);
             this.btnSpock.Name = "btnSpock";
             this.btnSpock.Size = new System.Drawing.Size(104, 25);
             this.btnSpock.TabIndex = 32;
